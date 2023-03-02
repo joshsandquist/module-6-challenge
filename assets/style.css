@@ -6,7 +6,7 @@
 
 :root{
     --blue: rgb(127, 127, 245);
-    --gray: rgb(109, 101, 101)
+    --gray: rgb(109, 101, 101);
 }
 
 body{
@@ -51,6 +51,8 @@ h2 {
 .btn {
     width: 200px;
     height: 40px;
-    background-color: var(--blue);
+    background-color: var(--gray);
     font-size: 22px;
+    margin-top: 10px;
+    color: white;
 }
