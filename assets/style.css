@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue: rgb(102, 102, 248);
+    --gray: rgb(109, 101, 101)
+}
+
+body{
+    font-family: 'Bitter', serif;
+}
+
+header {
+    height: 100px;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
