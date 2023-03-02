@@ -5,7 +5,7 @@
 }
 
 :root{
-    --blue: rgb(102, 102, 248);
+    --blue: rgb(127, 127, 245);
     --gray: rgb(109, 101, 101)
 }
 
@@ -19,4 +19,38 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#searchbar {
+    position: relative;
+    left: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cityInput {
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#submitBtn {
+    width: 200px;
+    height: 40px;
+    background-color: var(--blue);
+    font-size: 22px;
+}
+
+h2 {
+    text-align: c;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    background-color: var(--blue);
+    font-size: 22px;
 }
