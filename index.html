@@ -15,19 +15,28 @@
         <h1>5 Day Weather Forecast</h1>
     </header>
     <main>
-        <div id="searchbar" >
+        <section id="search">
             <h2>Search for a City:</h2>
-            <form>
+            <form id="search-form">
                 <label for="city"></label>
-                <input type="text" id="cityInput" placeholder="Phoenix"><br>
+                <input type="text" id="city" name= "city" placeholder="Phoenix"><br>
                 <button type="submit" id="submitBtn">Search</button>
             </form>
-
-        </div>
-        <div id="forecastContainer">
-
-        </div>
-
+            <div id="search-history">
+                <h2>Search History</h2>
+                <!-- Search history buttons will be dynamically added here -->
+            </div>
+        </section>
+        <section id="results">
+            <div id="current-weather">
+                <h2>Current Weather</h2>
+                <!-- Current weather data will be dynamically added here -->
+            </div>
+            <div id="forecast">
+                <h2>5-Day Forecast</h2>
+                <!-- 5-day forecast data will be dynamically added here -->
+            </div>
+        </section>
     </main>
     <script src="./assets/script.js"></script>
 </body>

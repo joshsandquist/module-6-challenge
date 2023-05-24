@@ -21,7 +21,7 @@ header {
     justify-content: center;
 }
 
-#searchbar {
+#search {
     position: relative;
     left: 20px;
     margin: 20px;
@@ -29,7 +29,7 @@ header {
     flex-direction: column;
 }
 
-#cityInput {
+#city {
     width: 200px;
     height: 40px;
     font-size: 22px;
@@ -44,8 +44,8 @@ header {
     font-size: 22px;
 }
 
-h2 {
-    text-align: c;
+#results {
+ display: flex;
 }
 
 .btn {
